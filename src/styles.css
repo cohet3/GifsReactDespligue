@@ -1,0 +1,152 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(234, 234, 234);
+  }
+  
+  body {
+    padding: 60px;
+  }
+  
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    height: 0%;  
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  
+  .card p {
+    background-color: white;
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+
+  /* Pruebas con imagen */
+  /* img {
+    max-width: 700px;
+    height: auto; */
+ /* } */
+ 
+
+ /* pruebas con Css */
+/* .box {
+  background-color: blueviolet;
+  width: 150px;
+  width: clamp(220px, 55%, 300px);
+  height: 150px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.top,
+.bottom {
+height: 100vh;
+}  */
+
+/* .container {
+  width: 120px;
+  height: 100px;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: center;
+} */
+/* .container .card {
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* .container .card:nth-child(1) {
+  background-color: lightsalmon;
+
+}
+.container .card:nth-child(2) {
+  background-color: lightgreen;
+  
+}
+.container .card:nth-child(3) {
+  background-color: lightgray;
+  
+}
+.container .card:nth-child(4) {
+  background-color: lightpink;
+  
+} */
+/* .container {
+ position: relative;
+ background-color: lightblue;
+ width: 200px;
+ height: 200px;
+}
+.container .box {
+  position: absolute;
+  background-color: blueviolet;
+  width: 60%;
+  height: 60%;
+  top: 20%;
+  left: 20px;
+}
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.camera-frame {
+  width: 80%;
+  max-width: 600px; /* Establece un ancho máximo para evitar que sea demasiado grande en pantallas grandes */
+  /* margin: 0 auto; Centra el recuadro de la cámara horizontalmente */
+
+
+/* .capture-button {
+  margin-top: 20px; /* Espacio entre el recuadro de la cámara y el botón */
+
+/* @media (max-width: 768px) {
+  .contenedor-imagen img {
+    width: 50%; /* Cambia el ancho de la imagen al 50% del contenedor en pantallas más pequeñas */
+  
+
