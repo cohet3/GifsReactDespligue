@@ -8,5 +8,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GifExpertApp />
     {/* <Pruebacss /> */}
+    {/* <PruebaBou /> */}
   </React.StrictMode>
 );

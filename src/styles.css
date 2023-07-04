@@ -166,7 +166,7 @@ img.container-card__img {
 
 #menu ul a {
   display: block;
-  color: #fff;
+  color: #100d0d;
   text-decoration: none;
   font-weight: 400;
   font-size: 15px;
@@ -188,7 +188,7 @@ img.container-card__img {
 /* efecto al pasar el ratón por los items del menu */
 
 #menu ul li:hover {
-  background: #6d7581;
+  background: #1a61bd;
 }
 /* menu desplegable */
 
@@ -197,7 +197,7 @@ img.container-card__img {
   position: absolute;
   top: 100%;
   left: 0;
-  background: #eee;
+  background: #111111;
   padding: 0;
 }
 
