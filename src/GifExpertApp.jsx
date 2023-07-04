@@ -13,7 +13,7 @@ export const GifExpertApp = () => {
 
   return (
     <>
-      <h1>GitExpertApp</h1>
+      <h1>GitApp</h1>
       <AddCategory onNewCategory={(value) => onAddCategory(value)} />
 
       {categories.map((category) => (
