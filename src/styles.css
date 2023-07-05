@@ -220,3 +220,18 @@ img.container-card__img {
 #menu ul li:hover > ul {
   display: block;
 }
+
+/* estilos de clickprinting */
+.general {
+  width: 570px;
+  height: 620px;
+  border: 1px solid var(--grises-gris-15-borde, #0e0d0d);
+  background: var(--grises-gris-3-bg-total, #f8f8f8);
+}
+.Redonda {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 64px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
