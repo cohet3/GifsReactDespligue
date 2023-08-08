@@ -377,8 +377,9 @@ body {
 }
 .uploadDetails {
   width: auto;
-  height: 250px;
+  height: auto;
   display: flex;
+  margin: 10px;
   > h1 {
     color: #0e0d0d;
   }
@@ -387,12 +388,14 @@ body {
     height: auto;
     width: auto;
   }
-  > input[type="number"] {
-    background-color: aquamarine;
+  > input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    background-color: rgb(244, 244, 244);
     width: auto;
     height: 10%;
     display: flex;
   }
+
   span:nth-child(1) {
     font-size: 13px;
     font-family: Source Sans Pro;

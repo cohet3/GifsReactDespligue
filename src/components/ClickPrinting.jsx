@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Upload from "./Upload";
 
-const Work = ({ Items }) => {
+const Work = ({ Items, id }) => {
   // console.log(Items);
-  const items = [1, 2, 3];
+
+  useEffect(() => {
+    first;
+
+    return () => {
+      second;
+    };
+  }, [third]);
+
+  const num = 3;
+  const items = ["modelo:1", "modelo:2", "modelo:3"];
   return (
     <>
       <div className="detailwork">
@@ -11,11 +21,11 @@ const Work = ({ Items }) => {
           <div className="imgRound">
             <img
               src="https://content.click2printsolutions.com/thumb/expositores-carton-SUELO_252X156-da69f.jpg"
-              alt=""
+              alt="Imagen descriptiva de producto"
             />
           </div>
 
-          <div className="infoHeadDetailWork">
+          <div key={1} className="infoHeadDetailWork">
             <h3>Soportes rígidos</h3>
             <h2>Cartón Microcanal / Corrugado</h2>
 
@@ -42,16 +52,16 @@ const Work = ({ Items }) => {
         </div>
 
         <ul>
-          {items.map((item) => (
-            <Upload num={item} />
+          {items.map((item, index) => (
+            <Upload key={index} num={item} />
           ))}
         </ul>
         <div className="impresion">
           <ul>
             <li>material</li>
-            <li>Carton Microcanal</li>
+            {/* <li>Carton Microcanal</li>
             <li>base</li>
-            <li>20</li>
+            <li>20</li> */}
           </ul>
         </div>
         <div className="instruccionesPlantilla">
